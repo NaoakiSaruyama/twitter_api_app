@@ -1,0 +1,21 @@
+<!--base.html-->
+<header class="header" role="banner">
+  <h1 class="logo">
+    <span>STUDYAPP</span>
+  </h1>
+  <div class="nav-wrap">
+    <nav class="main-nav" role="navigation">
+      <ul class="unstyled list-hover-slide">
+        <li><a href="{% url 'studyapp:home' %}">ホーム</a></li>
+        <li><a href="{% url 'studyapp:login'%}">ログアウト</a></li>
+        <li><a href="{% url 'studyapp:timer' %}">タイマー</a></li>
+        <li><a href="{% url 'studyapp:registsite' %}">登録サイト</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!--end base.html-->
+<body>
+  {% block content%}
+  {% endblock %}
+</body>

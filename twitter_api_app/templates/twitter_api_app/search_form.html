@@ -1,0 +1,18 @@
+<div>
+  <link rel="stylesheet" href="./../../static/css/search_form.css">
+</div>
+
+<body>
+  <div class="location">
+    <form action="" method="get">
+      {% csrf_token %}
+      <div class="inputs">
+        <label class="label">検索ワード</label>
+        <input class="input_form" type="text" name="word">
+      </div>
+      <div class="btn-area">
+        <input type="submit" value="検索">
+      </div>
+    </form>
+  </div>
+</body>

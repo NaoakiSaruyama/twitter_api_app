@@ -1,0 +1,54 @@
+#registe-site-table th,#registe-site-table td {
+  padding: 15px;
+}
+#registe-site-table tr:nth-child(odd) {
+  background: #E7EBE9;
+}
+#registe-site-table tr:nth-child(even) {
+  background: #F8F8F8;
+}
+#registe-site-table tr:first-child {
+  background: #ff96a3;
+}
+#registe-site-table th {
+  color: #fff;
+  border-bottom: solid 1px #ff96a3;
+}
+#registe-site-table td {
+  color: #4A6458;
+  border-bottom: solid 1px #ff96a3;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+table th,table td{
+  text-align: center;
+  width: 25%;
+  padding: 15px 0;
+}
+
+.delete_usrsite_form{
+  display: inline-block;
+}
+
+.delete_site_button{
+  border: none;
+  background-color:rgba(0,0,0,0) ;
+}
+
+.edit_site_button{
+  border: none;
+  background-color:rgba(0,0,0,0) ;
+}
+
+a.post_usersite_title:hover {
+  text-decoration: underline;
+}
+
+a{
+  text-decoration: none;
+}
